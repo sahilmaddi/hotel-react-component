@@ -1,0 +1,26 @@
+
+.hyd{
+    color: white;
+    background-position: 5%;
+    background-image: url("../images/charminar.webp");
+    background-repeat: no-repeat;
+}
+.bang{
+    color: white;
+    background-image: url("../images/bangalore.webp");
+    background-repeat: no-repeat;
+}
+.che{
+    color: white;
+    background-image: url("../images/chennai.webp");
+    background-repeat: no-repeat;
+}
+.bez{
+    color: white;
+    background-image: url("../images/vijayaada.webp");
+    background-repeat: no-repeat;
+}
+.text-color{
+    color: white;
+    font-weight: bold;
+}

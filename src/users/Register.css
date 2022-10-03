@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* .container div{
+    height:auto;
+    width: auto; 
+    align-items: center;
+  } */
+  body{
+    display: flex;
+    text-align: left;
+    /* display: inline-block; */
+    /* width: auto; */
+  }
+  .aaa{
+    display: block;
+    font-size: 14px;
+    background-color: rgb(8, 243, 24);
+    color: red;
+    margin-top: 2px;
+    text-align: right;
+    word-break: keep-all;
+    spacing:normal;
+    border-color: blue;
+    width:auto;
+  }
+  div{
+    margin-bottom: 10px;
+  }
+  .card {
+    background-color: theme('colors.white');
+    border-radius: theme('borderRadius.lg');
+    padding: theme('spacing.6');
+    box-shadow: theme('boxShadow.xl');
+  }
+  
+@layer components {
+  .select2-dropdown {
+    @apply rounded-b-lg shadow-md;
+  }
+  .select2-search {
+    @apply border border-gray-300 rounded;
+  }
+  .select2-results__group {
+    @apply text-lg font-bold text-gray-900;
+  }
+  /* ... */
+}

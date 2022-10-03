@@ -1,0 +1,9 @@
+.navi{
+    list-style:none;
+    margin:10px;
+    float: right; 
+    background: #010;
+}
+.color{
+    text-color:white;
+}
