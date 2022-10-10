@@ -58,7 +58,8 @@ export default function Registration() {
                         className='form-control' 
                         placeholder='Enter your Last Name' 
                         name="Last Name"  
-                        onChange={(e)=>onInputChange(e)}/>
+                        onChange={(e)=>onInputChange(e)}/
+                        >
                         </div>
                         <div className="mb-3">
                         <label htmlFor="Username" className='form-label'>Username</label>

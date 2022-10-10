@@ -7,20 +7,28 @@
     margin-top: 30px;
 }
 .jBbBTX {
-    color: rgb(44, 44, 44);
+    color: rgb(247, 247, 247);
     font-size: 15px;
     margin: 0px;
     line-height: 24px;
 }
+
 .dQsCrs {
-    width: calc(100% - 60px);
-    padding: 28px 30px 30px;
     border-radius: 6px;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgb(0 0 0 / 8%) 0px 1px 20px;
+    /* background-color: rgb(255, 255, 255); */
+    /* box-shadow: rgb(0 0 0 / 8%) 0px 1px 20px; */
     position: absolute;
     bottom: 81px;
+    left: 4px;
     z-index: 1;
+    
+}
+.dQsCrs h2 {
+    margin-bottom: 10px;
+    /* font-style: inherit; */
+    font-size: xxx-large;
+    font-weight:bolder;
+   color: rgba(0,0,0,.65);
 }
 
 div {
@@ -29,12 +37,10 @@ div {
 h1, h2, h3, h4, h5, h6, a, p, li, dl, th, dt, input, textarea, span, div{
     font-family: Lato, sans-serif;
     -webkit-font-smoothing: antialiased;
-    text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
-    -webkit-tap-highlight-color: transparent;
+    /* text-shadow: rgba(255, 252, 252, 0.967) 1px 1px 1px; */
+    /* -webkit-tap-highlight-color: transparent; */
 }
-::before, ::after{
-    box-sizing: border-box;
-}
+
 .dOPEPt {
     display: flex;
     -webkit-box-align: center;
@@ -47,7 +53,7 @@ h1, h2, h3, h4, h5, h6, a, p, li, dl, th, dt, input, textarea, span, div{
 }
 .cSRaiB {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     -webkit-box-align: center;
     align-items: center;
     position: relative;
@@ -70,7 +76,7 @@ h1, h2, h3, h4, h5, h6, a, p, li, dl, th, dt, input, textarea, span, div{
 div {
     font-family: Lato, sans-serif;
     -webkit-font-smoothing: antialiased;
-    text-shadow: rgb(0 0 0 / 0%) 1px 1px 1px;
+    /* text-shadow: rgb(252, 250, 250) 1px 1px 1px; */
     -webkit-tap-highlight-color: transparent;
 }
 ::before, ::after {
@@ -127,10 +133,10 @@ svg:not(:root) {
     background: transparent;
 }
 .jBbBTX {
-    color: rgb(44, 44, 44);
+    color: rgb(252, 247, 247);
     font-size: 15px;
     margin: 0px;
-    line-height: 24px;
+    line-height: normal;
 }
 .hCuLgs {
     display: flex;
@@ -317,7 +323,7 @@ svg:not(:root) {
     width: 100%;
 }
 .cSRaiB .date_picker .DateRangePicker .DateRangePickerInput {
-    border: 0px;
+    border: 1px;
     padding-right: 0px;
     display: flex;
     -webkit-box-align: center;
@@ -335,7 +341,7 @@ svg:not(:root) {
     background: #fff;
     position: relative;
     display: inline-block;
-    width: 130px;
+    width: 220px;
     vertical-align: middle;
 }
 *, :after, :before {
@@ -433,10 +439,7 @@ p {
     box-sizing: inherit;
     -webkit-font-smoothing: antialiased;
 }
-path {
-    fill-rule: evenodd;
-    d: path("M 11.53 0.47 a 0.75 0.75 0 0 0 -1.061 0 l -4.47 4.47 L 1.529 0.47 A 0.75 0.75 0 1 0 0.468 1.531 l 4.47 4.47 l -4.47 4.47 a 0.75 0.75 0 1 0 1.061 1.061 l 4.47 -4.47 l 4.47 4.47 a 0.75 0.75 0 1 0 1.061 -1.061 l -4.47 -4.47 l 4.47 -4.47 a 0.75 0.75 0 0 0 0 -1.061 Z");
-}
+
 [class*=ant-], [class*=ant-] *, [class*=ant-] :after, [class*=ant-] :before, [class^=ant-], [class^=ant-] *, [class^=ant-] :after, [class^=ant-] :before {
     -webkit-box-sizing: border-box;
     box-sizing: border-box;
@@ -536,8 +539,8 @@ path {
     white-space: nowrap;
     text-align: center;
     background-image: none;
-    -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.015);
-    box-shadow: 0 2px 0 rgba(0,0,0,.015);
+    /* -webkit-box-shadow: 0 2px 0 rgba(0,0,0,.015);
+    box-shadow: 0 2px 0 rgba(0,0,0,.015); */
     cursor: pointer;
     -webkit-transition: all .3s cubic-bezier(.645,.045,.355,1);
     transition: all .3s cubic-bezier(.645,.045,.355,1);
@@ -572,10 +575,7 @@ body {
 .ant-btn>span {
     display: inline-block;
 }
-[class*=ant-], [class*=ant-] *, [class*=ant-] :after, [class*=ant-] :before, [class^=ant-], [class^=ant-] *, [class^=ant-] :after, [class^=ant-] :before {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-}
+
 .cSRaiB .view_with__popup::before {
     content: "";
     width: 1px;
@@ -601,4 +601,151 @@ body {
     -webkit-box-pack: center;
     justify-content: center;
     z-index: 1;
+}
+.cSRaiB > svg.map-marker, .cSRaiB > svg.calendar, .cSRaiB > svg.user-friends {
+    left: 15px;
+    right: auto;
+    fill: rgb(0, 132, 137);
+}
+.cSRaiB > svg {
+    position: absolute;
+    z-index: 1;
+    top: auto;
+}
+.cSRaiB .date_picker {
+    min-width: calc(236px);
+    width: calc(100% - 14px);
+    margin: 0px 0px 0px 14px;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.hCuLgs {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+[class*=ant-], [class*=ant-] *, [class*=ant-] :after, [class*=ant-] :before, [class^=ant-], [class^=ant-] *, [class^=ant-] :after, [class^=ant-] :before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html, html a, h1, h2, h3, h4, h5, h6, a, p, li, dl, th, dt, input, textarea, span, div {
+    font-family: Lato, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    /* text-shadow: rgba(0, 0, 0, 0.004) 1px 1px 1px; */
+    -webkit-tap-highlight-color: transparent;
+}
+.cSRaiB .date_picker .DateRangePicker .DateRangePickerInput {
+    border: 0px;
+    padding-right: 0px;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    background: transparent;
+}
+.cSRaiB .date_picker .DateRangePicker .DateRangePickerInput .DateInput {
+    width: 100%;
+    padding: 0px 15px 0px 30px;
+    background: transparent;
+}
+
+body {
+    margin: 0;
+    color: rgba(0,0,0,.65);
+    font-size: 14px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-variant: tabular-nums;
+    line-height: 1.5715;
+    background-color: #fff;
+    -webkit-font-feature-settings: "tnum";
+    font-feature-settings: "tnum","tnum";
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    font-family: Lato, sans-serif;
+    -webkit-tap-highlight-color: transparent;
+}
+.DateRangePickerInput_arrow {
+    display: inline-block;
+    vertical-align: middle;
+    color: #484848;
+}
+.cSRaiB .date_picker .DateRangePicker .DateRangePickerInput .DateInput .DateInput_input {
+    padding: 0px;
+    font-weight: 400;
+    color: rgb(44, 44, 44);
+    background: transparent;
+}
+.cSRaiB > svg.user-friends {
+    width: 17px;
+    height: 17px;
+}
+.cSRaiB > svg.map-marker, .cSRaiB > svg.calendar, .cSRaiB > svg.user-friends {
+    left: 15px;
+    right: auto;
+    fill: rgb(0, 132, 137);
+}
+.cSRaiB .view_with__popup {
+    max-width: 100%;
+    position: relative;
+}
+.cSRaiB .view_with__popup::before {
+    content: "";
+    width: 1px;
+    height: 20px;
+    display: inline-block;
+    position: absolute;
+    top: calc(50% - 10px);
+    right: auto;
+    left: 0px;
+    z-index: 1;
+    background-color: rgb(230, 230, 230);
+}
+.cSRaiB .view_with__popup .popup_handler {
+    width: calc(100% - 14px);
+    margin-left: 14px;
+}
+.ant-btn>span {
+    display: inline-block;
+}
+.cSRaiB .view_with__popup .popup_handler button.ant-btn {
+    min-width: auto;
+    width: 100%;
+    height: 60px;
+    border: 0px;
+    padding: 0px 30px;
+    border-radius: 0px;
+    box-shadow: none;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgb(44, 44, 44);
+    background-color: rgb(247, 247, 247);
+}
+.cSRaiB > svg.map-marker, .cSRaiB > svg.calendar, .cSRaiB > svg.user-friends {
+    left: 15px;
+    right: auto;
+    fill: rgb(0, 132, 137);
+}
+.cSRaiB > svg {
+    position: absolute;
+    z-index: 1;
+    top: auto;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+svg {
+    stroke: currentcolor;
+    fill: currentcolor;
+    stroke-width: 0;
+    height: 1em;
+    width: 1em;
 }

@@ -5,8 +5,8 @@ import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
 import { Room } from '@material-ui/icons';
 import "./CarouselComponent.css"
-import {room} from "../images/room.jpg"
-import {room2} from "../images/room2.webp"
+import {room} from "../../images/room.jpg"
+import {room2} from "../../images/room2.webp"
 export default function CarouselComponent() {
  const dataDigitalBestSeller = [
         {
