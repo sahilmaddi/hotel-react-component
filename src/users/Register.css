@@ -7,7 +7,7 @@
     align-items: center;
   } */
   body{
-    display: flex;
+    /* display: flex; */
     text-align: left;
     /* display: inline-block; */
     /* width: auto; */
@@ -24,9 +24,9 @@
     border-color: blue;
     width:auto;
   }
-  div{
+  /* div{
     margin-bottom: 10px;
-  }
+  } */
   .card {
     background-color: theme('colors.white');
     border-radius: theme('borderRadius.lg');

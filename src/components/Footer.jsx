@@ -3,7 +3,8 @@ import FacebookIcon from '@mui/icons-material/Facebook';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import TwitterIcon from '@mui/icons-material/GitHub';
-import { Icon } from '@material-ui/core';
+// import { Icon } from '@material-ui/core';
+
 
 export default function Footer() {
   return (
@@ -16,10 +17,10 @@ export default function Footer() {
         <h5 className="text-uppercase">Hotel Details</h5>
         <ul className="list-unstyled">
           <li>
-           <a href="https://www.facebook.com/"><FacebookIcon/></a>
-           <a href="https://www.linkedin.com/"><LinkedInIcon/></a>
-           <a href="https://www.instagram.com/"><InstagramIcon/></a>
-           <a href="https://www.twitter.com/"><TwitterIcon/></a>
+         <a href="https://www.facebook.com"> <FacebookIcon/></a>
+         <LinkedInIcon/>
+           <InstagramIcon/>
+           <TwitterIcon/>
           </li>
         </ul>
       </div>  

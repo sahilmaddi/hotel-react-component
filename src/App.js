@@ -10,6 +10,7 @@ import ShowBookings from './pages/ShowBookings';
 import AdminDashboard from "./components/Admin-Dashboard/AdminDashboard"
 import UserDashboard from './components/User-Dashboard/UserDashboard';
 import Footer from './components/Footer';
+import { ourHotels } from './pages/ourHotels';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route exact path="/admin-dashboard" element={<AdminDashboard/>}></Route>
           <Route exact path="/user-dashboard" element={<UserDashboard/>}></Route>
           <Route exact path="/about-us" element={<Footer/>}></Route>
+          <Route exact path="/our-hotels" element={<ourHotels/>}></Route>
         </Routes>
       </Router>
       
