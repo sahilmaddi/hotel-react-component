@@ -1,9 +1,24 @@
 .navi{
     list-style:none;
-    margin:10px;
-    float: right; 
+    display:flex;
+    margin:8px;
+    float: left; 
     background: #010;
-    flex-direction: column;
+    /* flex-direction: column; */
+    font-size:0.5 rem;
+    padding: 0px 10px; 
+}
+.navbar-expand .navbar-nav {
+  flex-direction: row;
+}
+
+.navi2{
+  display:flex; 
+  list-style:none;
+  margin:10px;
+  float: right; 
+  background: #010;
+  flex-direction: column;
 }
 .color{
     text-color:white;

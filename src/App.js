@@ -11,6 +11,7 @@ import AdminDashboard from "./components/Admin-Dashboard/AdminDashboard"
 import UserDashboard from './components/User-Dashboard/UserDashboard';
 import Footer from './components/Footer';
 import { ourHotels } from './pages/ourHotels';
+import popUp from './layouts/popUp';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/user-dashboard" element={<UserDashboard/>}></Route>
           <Route exact path="/about-us" element={<Footer/>}></Route>
           <Route exact path="/our-hotels" element={<ourHotels/>}></Route>
+          <Route exact path="/guests" element={<popUp/>}></Route>
         </Routes>
       </Router>
       

@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button {
+  font: inherit;
+}
+
+html {
+  font-size: 1.5rem;
+}
+
+
+
+
+article {
+  margin: 1em;
+  padding: 1em;
+  background-color: midnightblue;
+  color: whitesmoke;
+  border-radius: 15px;
+}
+
+
+header {
+  /* background-color: gold; */
+  padding: 1em;
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center; */
+}
+
+.abcd{
+    position: static;
+    width: calc(100% - 60px);
+    padding: 28px 30px 30px;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 20px;
+    bottom: 81px;
+    z-index: 1;
+
+}
+
+
+.search:focus-within {
+  box-shadow: 2px 2px 7px #000;
+}
+
+.search__button,
+.search__input {
+  background-color: #fff;
+  border: none;
+  outline: none;
+}
+
+.search__input {
+  padding: 1em;
+  width: 85%;
+}
+
+.search__button {
+  width: 15%;
+  font-size: 1.5rem;
+  padding-right: 0.5em;
+  color: gray;
+  display: grid;
+  place-content: center;
+}
+
+@media (min-width: 576px) {
+  .search {
+    font-size: 1rem;
+  }
+
+  .search__button {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 600px) {
+  .search {
+        border-radius: 2em;
+        /* z-index: 1; */
+        display: flex;
+        border: 5px solid #000;
+        /* overflow: visible !important; */
+        font-size: 1rem;
+        border: 2px solid #000;
+        border-radius: 2em;
+        overflow: hidden;
+        flex-flow: nowrap;
+  }
+
+
+  .search__button {
+    padding-right: 0.5em;
+    font-size: 3rem;
+  }
+}
