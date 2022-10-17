@@ -2,7 +2,7 @@ import axios from "axios";
 
 
 
-const BASE_URL = "http://10.81.4.236:2021";
+const BASE_URL = "http://10.81.4.222:2021";
 
 
 
@@ -15,7 +15,7 @@ const LOGIN_API_URL = `${BASE_URL}/login`;
 
 const REGISTRATION_API_URL = `${BASE_URL}/user/registration`;
 
-const LOCATIONS_URL = `${BASE_URL}/getAllLocations`;
+const LOCATIONS_URL = `${BASE_URL}/getByLocationsName`;
 
 
 export function auth() {
@@ -60,9 +60,13 @@ export default new (class ApiService {
 
   } 
 
-  getLocations(data) {
-    return axios.get(LOCATIONS_URL, data);
-  }
+   getLocations =  () => {
+    axios.get(`${BASE_URL}getByLocationsName/{cityName}`)
+   .then((response)=>{
+    const allLocations=response.data.value;
+   })
+   .catch(error=>console.error(`Error:${error}`));
+};
 
 
 
