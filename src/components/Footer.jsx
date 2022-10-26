@@ -18,9 +18,9 @@ export default function Footer() {
         <ul className="list-unstyled">
           <li>
          <a href="https://www.facebook.com"> <FacebookIcon/></a>
-         <LinkedInIcon/>
-           <InstagramIcon/>
-           <TwitterIcon/>
+         <a href="https://www.linkedin.com"><LinkedInIcon/></a>
+         <a href="https://www.instagram.com"> <InstagramIcon/></a> 
+         <a href="https://www.twitter.com"> <TwitterIcon/></a> 
           </li>
         </ul>
       </div>  

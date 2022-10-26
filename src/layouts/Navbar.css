@@ -1,40 +1,13 @@
-.navi{
-    list-style:none;
-    margin:10px;
-    float: right; 
-    background: #010;
-    flex-direction: column;
+.nav{
+  padding:0,0;
+  padding-left:0;
+  padding-right:0;
+  --bs-nav-link-padding-x:0;
+  --bs-nav-link-padding-y:0;
+  display: flex;
 }
-.color{
-    text-color:white;
+
+.px-2 {
+  padding-right: 0.5rem!important; 
+  padding-left: 0.5rem!important; 
 }
-.btn {
-    border: 2px solid black;
-    background-color: white;
-    color: black;
-    padding: 14px 28px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  .success {
-    border-color: #04AA6D;
-    color: green;
-  }
-  
-  .success:hover {
-    background-color: #04AA6D;
-    color: white;
-  }
-  .default {
-    border-color: #e7e7e7;
-    color: black;
-  }
-  
-  .default:hover {
-    background: #e7e7e7;
-  }
-  *{
-    height: 100%;
-    width: 100%
-  }
