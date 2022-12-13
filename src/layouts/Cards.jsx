@@ -1,17 +1,14 @@
 import React from "react";
 import { Button, Card, CardGroup } from "react-bootstrap";
-import test4 from "../images/room.jpg";
-import test3 from "../images/room2.webp";
-import SignalWifi4BarIcon from "@mui/icons-material/SignalWifi4Bar";
-import SingleBedIcon from "@mui/icons-material/SingleBed";
-import EditLocationIcon from "@mui/icons-material/EditLocation";
 import "./Cards.css";
 export default function Cards() {
   return (
     <>
+    <br/>
       <CardGroup>
         <Card
-          style={{ width: "100%", height: "100% !important", color: "white" }}
+          style={{ width: "100%", height: "100% !important",
+           color: "white" }}
           className="hyd"
         >
           <Card.Img variant="top" />
@@ -23,7 +20,7 @@ export default function Cards() {
               </center>
             </Card.Text>
           </Card.Body>
-        </Card>{" "}
+        </Card>
         &nbsp;&nbsp;
         <Card style={{ width: "100%" }} className="bang">
           <Card.Img variant="top" />
@@ -35,18 +32,18 @@ export default function Cards() {
             <br /> Bangalore
             <br />9 Hotels
           </center>
-        </Card>{" "}
+        </Card>
         &nbsp;&nbsp;
         <Card style={{ width: "100%" }} className="che">
           <center className="text-color">
-            {" "}
+           
             &emsp;
             <br />
             &ensp;
             <br /> Chennai
-            <br /> 6 Hotels{" "}
+            <br /> 6 Hotels
           </center>
-        </Card>{" "}
+        </Card>
         &nbsp;&nbsp;
         <Card style={{ width: "150%" }} className="bez">
           <Card.Body>
@@ -59,7 +56,7 @@ export default function Cards() {
               </center>
             </Card.Title>
           </Card.Body>
-        </Card>{" "}
+        </Card>
         &nbsp;&nbsp;
       </CardGroup>
     </>

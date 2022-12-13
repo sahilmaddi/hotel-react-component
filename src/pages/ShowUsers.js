@@ -28,8 +28,6 @@ import {useParams} from "react-router-dom"
         <th scope="col">First Name</th>
         <th scope="col">Last Name</th>
         <th scope="col">Username</th>
-       
-       
 </tr>
 </thead>
 </table>

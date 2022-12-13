@@ -1,0 +1,20 @@
+.mdb{
+    width: 617px; 
+    /* height: 411.333px;
+     */ 
+     /* margin: 0px; */
+     padding-bottom: 1px;
+     
+}
+.divclass{
+    background-color: #f49292; 
+}
+h1{
+    color:rgb(161, 15, 8);
+    background-color: rgb(8, 239, 93); 
+}
+.aaa{
+    float: left;  
+    height: 200px;  
+    width: 250px;  
+    border: 8px ;}

@@ -1,31 +1,43 @@
-import { getLocations } from '../api/axios'
-import React from 'react'
-import logo from "../../images/hotel.jpg"
-
+// import { getLocations } from '../api/axios'
+import React,{ 
+  // useState,
+  // useEffect 
+}  from 'react'
+// import logo from "../assets_img/hotel.jpg"
 import './Home.css'
-import Footer from '../Footer';
+import LocationCards from './LocationCards';
+import NewResort from '../../layouts/NewResort';
 import Navbar from '../../layouts/Navbar';
-
-import Cards from '../../layouts/Cards';
-// import DatePick from '../DatePicker';
-// import Selector from "../../layouts/Selector"
-import SearchWidget from './SearchWidget';
-import { useState } from 'react';
-import { useEffect } from 'react';
-// import ListPage from './ListPage';
+// import Cards from '../../layouts/Cards';
+// import SearchWidget from './SearchWidget';
 import CarouselComponent from './CarouselComponent';
+import HomeFooter from '../HomeFooter';
+// import Resorts from "../../layouts/Resorts"
+// import slideData from "../../layouts/slideData"
+import Map from "../../layouts/Map"
 export default function Home() {
-  // const [locations, setLocations] = useState([])
-  const [searchResults, setSearchResults] = useState([])
-
+  // const [searchResults, setSearchResults] = useState([])
+  // const[results,setResult]=useState([]);
+  
 
   return (
   <div className="App">
     <Navbar/>
     <CarouselComponent/>
-    {/* <SearchWidget/> */}
-    {/* <Cards/> */}
-    <Footer/>
+   {/* <CardComponent/> */}
+    {/* <Footer/> */}
+    <br/>
+    {/* <slideData/> */}
+    <br/>
+    <LocationCards/>
+    <br/>
+    <NewResort/>
+    {/* <br/> */}
+    {/* <Resorts/> */}
+    <br/>
+    <Map/>
+    <br/>
+    <HomeFooter/>
 </div>
     
   )

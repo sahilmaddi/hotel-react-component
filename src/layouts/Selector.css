@@ -74,7 +74,7 @@ h1, h2, h3, h4, h5, h6, a, p, li, dl, th, dt, input, textarea, span, div{
 }
 
  .glide, .hHPvoJ .glide__track,.glide__slides {
-    position: absolute;
+   
     width: 100%;
     height: 100%;
     top: 0px;

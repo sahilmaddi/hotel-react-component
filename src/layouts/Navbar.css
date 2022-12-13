@@ -11,3 +11,14 @@
   padding-right: 0.5rem!important; 
   padding-left: 0.5rem!important; 
 }
+
+.aaab {
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  float: left;
+  height: 72px;
+  width: 66px;
+  border: 0px;
+}

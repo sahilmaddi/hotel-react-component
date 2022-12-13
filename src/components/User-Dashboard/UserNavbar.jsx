@@ -3,13 +3,14 @@
 // import Nav from 'react-bootstrap/Nav';
 // import Navbar from 'react-bootstrap/Navbar';
 // import NavDropdown from 'react-bootstrap/NavDropdown';
+import React from "react";
 import "./UserNavbar.css";
 export default function UserNavbar(){
    
 return (
     <div className="container-fluid abc" >
         <nav className="navbar w-96 navbar-expand-lg navbar-light bg-light p-0 w-100 border-spacing-0 justify-between">
-            <a className="navbar-brand" href="#">Logo</a>
+            <a className="navbar-brand" href="#"><img src="../../images/logo.jpg" alt="..."/></a>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul className="navbar-nav">
                     <li className="nav-item">
