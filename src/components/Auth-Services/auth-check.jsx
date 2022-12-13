@@ -2,7 +2,7 @@ import { verify } from 'jstokonwebtoken';
 import { jwtSecret } from '../../config';
 const User = require('mysql').model('User');
 
-export default (req, res, next) => {
+ const Auth=(req, res, next) => {
   if (!req.headers.authorization) {
     return res.status(401).end();
   }
@@ -27,3 +27,4 @@ export default (req, res, next) => {
     });
   });
 };
+export default Auth

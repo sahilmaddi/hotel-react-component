@@ -1,0 +1,109 @@
+/* p.hero { */
+    /* padding-left: 365px; */
+    /* padding-bottom: 15px; */
+    /* padding-top: 15px; */
+    /* font-family: ui-monospace;
+    text-align: center !important;
+    font-size: 55px;
+} */
+.logout{
+    margin-left: 1900px;
+}
+
+
+
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-red {
+    background-color: #7a7270b9 !important;
+}
+/* a.logout.nav-link {
+    padding-right: 50px;
+    
+} */
+/* .imgrr {
+   width: 100%;
+} */
+
+    /* button.s {
+        padding-top: 58px;
+    } */
+   
+   .AddRoom{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+
+    /* margin-left: -500px;s */
+   }
+   .AddFood{
+    position: absolute;
+    margin-left: 158px;
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+
+
+    /* margin-left: -500px;s */
+   }
+   .AddLocations{
+    position: absolute;
+    margin-left: -406px;
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+
+   }
+   .BookingHistory{
+    position: absolute;
+    margin-left: -406px;
+    margin-top: 450px;
+    width: 200px;
+    height: 150px;
+
+   }
+   .BookingStatus{
+    position: absolute;
+    margin-left: -150px;
+    margin-top: 450px;
+    width: 200px;
+    height: 150px;
+   }
+   .Activties{
+
+    position: absolute;
+    margin-left: 158px;
+    margin-top: 450px;
+    width: 200px;
+    height: 150px;
+   }
+   .Facilities{
+    position: absolute;
+    margin-left: -693px;
+    margin-top: 450px;
+    width: 200px;
+    height: 150px;
+
+   }
+   .AddHotels{
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 56px;
+    width: 200px;
+    height: 150px;
+
+   }
+  .logoMicro{
+    margin-left: 74px;
+  }
+  
+.hero {
+    padding-left: -124px;
+    padding-bottom: -62px;
+    padding-top: 0px;
+    width: 1476px;
+    font-family: ui-monospace;
+    text-align: center !important;
+    font-size: 45px;
+}

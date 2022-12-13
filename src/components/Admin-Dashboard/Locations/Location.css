@@ -1,0 +1,9 @@
+
+a, a:visited {
+    color: #c03535;
+}
+div{
+    display: 'block';
+    width: 700; 
+    padding: 30 
+}

@@ -7,11 +7,13 @@ import FacebookIcon from "@mui/icons-material/Facebook";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import logo from "../images/logo.jpg"
+import logo from "../images/logo.png"
 const HomeFooter = () => {
   return (
     <MDBFooter bgColor='light' className='text-center text-lg-start text-muted'>
-      <section className='d-flex justify-content-center justify-content-lg-between p-4 border-bottom'>
+      {/* justify-content-center justify-content-lg-between */}
+      <section className='d-flex 
+      p-4 border-bottom'>
         <div className=' d-none d-lg-block'>
           <span>Get connected with us on social networks:</span>
         </div>
@@ -41,7 +43,7 @@ const HomeFooter = () => {
           // className='mt-3'
           >
             <MDBCol 
-            // className='mx-auto'
+            className='mx-auto'
             >
                 <img src={logo} alt="" className='aaab'/>
             </MDBCol>

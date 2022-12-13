@@ -24,16 +24,11 @@ export default function Home() {
   <div className="App">
     <Navbar/>
     <CarouselComponent/>
-   {/* <CardComponent/> */}
-    {/* <Footer/> */}
     <br/>
-    {/* <slideData/> */}
     <br/>
     <LocationCards/>
     <br/>
     <NewResort/>
-    {/* <br/> */}
-    {/* <Resorts/> */}
     <br/>
     <Map/>
     <br/>

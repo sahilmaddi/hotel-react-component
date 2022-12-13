@@ -1,0 +1,14 @@
+.FM{
+    position: absolute;
+    margin-left: -700px;
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+}
+.FC{
+    position: absolute;
+    margin-left: -400px;
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+}

@@ -1,0 +1,13 @@
+.black{
+    background-color: black;
+    color: white;
+}
+.gap-1{
+gap: 1px;
+}
+.asd{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 50px;
+}

@@ -29,7 +29,7 @@ export default function LocationCards() {
             position='top'
           />
           <MDBCardBody className='bg-card-color'> 
-            <MDBCardTitle onClick={axios.get("http://10.81.4.196:2021/getByCityNameLetters/hyd")}>Hyderabad</MDBCardTitle>
+            <MDBCardTitle className="h5">Hyderabad</MDBCardTitle>
           </MDBCardBody>
         </MDBCard>
       </MDBCol>

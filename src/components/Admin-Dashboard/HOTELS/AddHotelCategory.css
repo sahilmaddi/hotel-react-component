@@ -1,0 +1,12 @@
+/* .asdf {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    left: 57px;
+    width: 410px;
+} */
+.div{
+    display: flex;
+    padding: 25px;
+}

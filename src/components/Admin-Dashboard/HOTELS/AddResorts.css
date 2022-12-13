@@ -1,0 +1,9 @@
+button {
+    /* padding: 0.5rem; */
+    width: FIT-CONTENT;
+    padding: 6px 6px !important;
+}
+form{
+    display: inline;
+}
+.resort-form{background-color: blueviolet;}

@@ -1,0 +1,14 @@
+.Add_room{
+    position: absolute;
+    margin-left: -700px;
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+}
+.Add_cat{
+    position: absolute;
+    margin-left: -400px;
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+}

@@ -32,8 +32,6 @@ html {
   margin: 2px 0;
 }
 
-
-
 article {
   margin: 1em;
   padding: 1em;
@@ -41,7 +39,6 @@ article {
   color: whitesmoke;
   border-radius: 15px;
 }
-
 
 header {
   /* background-color: gold; */
@@ -51,18 +48,16 @@ header {
   /* align-items: center; */
 }
 
-.abcd{
-    /* position: static; */
-    /* width: calc(100% - 60px); */
-    /* padding: 28px 30px 30px; */
-    border-radius: 6px;
-    /* background-color: rgb(255, 255, 255); */
-    /* box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 20px; */
-    bottom: 81px;
-    z-index: 1;
-
+.abcd {
+  position: static;
+  width: calc(100% - 60px);
+  padding: 28px 30px 30px;
+  border-radius: 6px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.08) 0px 1px 20px;
+  bottom: 81px;
+  z-index: 1;
 }
-
 
 .search1:focus-within {
   box-shadow: 2px 2px 7px #000;
@@ -101,22 +96,19 @@ header {
 
 @media (min-width: 600px) {
   .search1 {
-        border-radius: 2em;
-        /* 
-        z-index: 1; 
-        */
-        display: flex;
-        border: 5px solid #000;
-        /* overflow: visible !important; */
-        font-size: 0.5rem;
-        border: 1px solid #000;
-        border-radius: 5em;
-        overflow: hidden;
-        flex-flow: nowrap;
-        width:60%;
-        margin-left: 212px;
+    z-index: 1;
+    border-radius: 2em;
+    display: flex;
+    border: 5px solid #000;
+    /* overflow: visible !important; */
+    font-size: 0.5rem;
+    border: 1px solid #000;
+    border-radius: 5em;
+    overflow: hidden;
+    flex-flow: nowrap;
+    width: 60%;
+    margin-left: 212px;
   }
-
 
   .search__button1 {
     padding-right: 0.5em;

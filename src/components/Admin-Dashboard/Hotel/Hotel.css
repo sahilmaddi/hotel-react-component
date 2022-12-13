@@ -1,0 +1,21 @@
+.Add_Hotel{
+    position: absolute;
+    margin-left: -320px;;
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+}
+.GetAllRooms{
+    position: absolute;
+        margin-left: -20px;
+        margin-top: 50px;
+        width: 200px;
+        height: 150px;
+}
+.Add_cati{
+    position: absolute;
+    margin-left: 240px;
+    margin-top: 50px;
+    width: 200px;
+    height: 150px;
+}
